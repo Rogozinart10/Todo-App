@@ -2,11 +2,12 @@
 
 body {
     margin: 0;
-    background-color: rgb(79, 79, 249);
+    background: #2e8568;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .wrapper {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,195,45,1) 100%);
     box-sizing: border-box;
     width: 550px;
     height: 550px;

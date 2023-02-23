@@ -4,6 +4,7 @@
     justify-content: center;
     
     .input {
+        transition: all 0.8s ease;
         display: flex;
         justify-content: center;
         box-sizing: border-box;
@@ -13,6 +14,9 @@
             width: 250px;
             border: none;
             background: #dbe2ef;
+            &::placeholder {
+                padding: 5px;
+            }
         }
         button {
             cursor: pointer;
@@ -24,6 +28,9 @@
             &:hover {
                 filter: brightness(0.8);
             }
+        }
+        &:hover {
+            transform: translateY(-10px);
         }
     }
 }

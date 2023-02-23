@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <div className={s.wrapper}>
         <div className={s.input}>
-            <input onKeyDown={handleKeyDown} value={value} onChange={(e) => setValue(e.target.value)} placeholder='some words' type="text" />
+            <input onKeyDown={handleKeyDown} value={value} onChange={(e) => setValue(e.target.value)} placeholder='some words...' type="text" />
             <button onClick={() => addTodos()} >+</button>
         </div>
     </div>
